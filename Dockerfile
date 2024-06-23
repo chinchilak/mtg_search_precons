@@ -10,5 +10,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8502
 
-CMD ["streamlit", "run", "--server.port 8502", "scry.py"]
+CMD ["streamlit", "run", "--server.port", "8502", "scry.py"]
 
